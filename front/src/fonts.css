@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;700&family=Montserrat&display=swap');
+
+* {
+    font-weight: normal;
+}
+
+h1, button {
+    font-family: 'Mali', cursive;
+}
+
+h1 {
+    font-weight: bold;
+}
