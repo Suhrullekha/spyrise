@@ -1,7 +1,47 @@
-body{
+body {
     background-color: #001A23;
+    margin: auto; 
 }
 
-#main-header{
-color:#B3EFB2; 
+.title {
+    margin-top: 5%;
+    color:#B3EFB2; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+button {
+    /* display: flex;
+    flex-direction: column;  */
+    background-color:#31493C;
+    color: #E8F1F2;
+    padding: 8px;
+    font-size: 17px;
+    width: 17ch;
+    margin: 8.5px;
+    border-radius: 15px;
+    border: none; 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.row1{
+}
+
+.row2{
+}
+
+.row3{
+}
+
+img {
+    position:absolute;
+    bottom: 7px; 
+    left: 7px;
 }
