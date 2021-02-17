@@ -1,3 +1,11 @@
+:root {
+    --white: #B3EFB2;
+    --light-green: #B3EFB2;
+    --medium-green: #7A9E7E;
+    --dark-green: #31493C;
+    --black: #001A23;
+}
+
 body {
     background-color: #001A23;
     margin: auto; 
@@ -14,14 +22,26 @@ body {
 button {
     /* display: flex;
     flex-direction: column;  */
-    background-color:#31493C;
-    color: #E8F1F2;
-    padding: 8px;
-    font-size: 17px;
     width: 17ch;
+
+    background-color: var(--dark-green);
+    opacity: 65%;
+    padding: 8px;
     margin: 8.5px;
+
+    border: var(--dark-green) solid 3px;
     border-radius: 15px;
-    border: none; 
+
+    color: var(--white);
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: opacity 400ms ease-in-out;
+}
+
+button:hover {
+    opacity: 100%;
 }
 
 .buttons{
@@ -43,6 +63,6 @@ button {
 
 img {
     position:absolute;
-    bottom: 7px; 
-    left: 7px;
+    bottom: 10px; 
+    left: 10px;
 }
